@@ -1,0 +1,12 @@
+#production file
+numbers = [
+    23, 3, 7, 81, 12,
+    490, 312, 1234, 99
+]
+
+# Generate list with each value squared
+squared = [number ** 2 for number in numbers]
+
+# Output data
+print("Original values:\n", numbers)
+print("Values squared:\n", squared)
